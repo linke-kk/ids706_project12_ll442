@@ -10,3 +10,6 @@ boto3==1.24.87
 black
 # ML
 scikit-learn
+matplotlib
+mlflow
+tensorflow

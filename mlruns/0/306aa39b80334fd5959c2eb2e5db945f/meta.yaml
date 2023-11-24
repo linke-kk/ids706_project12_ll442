@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ll442/ids706/hw12/ids706_project12_ll442/mlruns/0/306aa39b80334fd5959c2eb2e5db945f/artifacts
+end_time: 1700842491861
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 306aa39b80334fd5959c2eb2e5db945f
+run_name: kindly-snipe-305
+run_uuid: 306aa39b80334fd5959c2eb2e5db945f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1700842491789
+status: 3
+tags: []
+user_id: ll442

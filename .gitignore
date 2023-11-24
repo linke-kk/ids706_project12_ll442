@@ -7,3 +7,7 @@ env/
 # cache file
 __pycache__/
 .ruff_cache
+
+# dataset
+data/
+data.zip

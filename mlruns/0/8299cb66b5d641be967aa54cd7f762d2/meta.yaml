@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ll442/ids706/hw12/ids706_project12_ll442/mlruns/0/8299cb66b5d641be967aa54cd7f762d2/artifacts
+end_time: 1700846227368
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8299cb66b5d641be967aa54cd7f762d2
+run_name: silent-newt-448
+run_uuid: 8299cb66b5d641be967aa54cd7f762d2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1700846215091
+status: 3
+tags: []
+user_id: ll442

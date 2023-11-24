@@ -9,9 +9,13 @@ from collections import defaultdict
 spark = SparkSession.builder.appName("CSVIngestion").getOrCreate()
 
 # Read CSV file
-df = spark.read.format("csv").\
-option("header", "true").\
-load("dbfs:/FileStore/shared_uploads/linkekk@ad.unc.edu/OccupationalEmploymentandWageStatistics_final.csv")  
+df = (
+    spark.read.format("csv")
+    .option("header", "true")
+    .load(
+        "dbfs:/FileStore/shared_uploads/linkekk@ad.unc.edu/OccupationalEmploymentandWageStatistics_final.csv"
+    )
+)
 
 # Show the first few rows of the DataFrame
 df.head()
@@ -30,8 +34,16 @@ meanHash = defaultdict()
 maxHash = defaultdict()
 minHash = defaultdict()
 
-columns = ['10th %', '25th %', 'Entry level', 'Median', 'Mean', 'Experienced', \
-'75th %', '90th %']
+columns = [
+    "10th %",
+    "25th %",
+    "Entry level",
+    "Median",
+    "Mean",
+    "Experienced",
+    "75th %",
+    "90th %",
+]
 
 for column in columns:
     df = df.withColumn(column, regexp_replace(col(column), "[\$,]", "").cast("integer"))

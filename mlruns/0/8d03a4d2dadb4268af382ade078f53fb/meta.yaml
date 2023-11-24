@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ll442/ids706/hw12/ids706_project12_ll442/mlruns/0/8d03a4d2dadb4268af382ade078f53fb/artifacts
+end_time: 1700842038698
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8d03a4d2dadb4268af382ade078f53fb
+run_name: loud-asp-414
+run_uuid: 8d03a4d2dadb4268af382ade078f53fb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1700842036199
+status: 3
+tags: []
+user_id: ll442

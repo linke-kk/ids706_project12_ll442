@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ll442/ids706/hw12/ids706_project12_ll442/mlruns/0/eae9abaec6304bdca7742464954fe020/artifacts
+end_time: 1700846209296
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: eae9abaec6304bdca7742464954fe020
+run_name: upset-fawn-683
+run_uuid: eae9abaec6304bdca7742464954fe020
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1700846196835
+status: 3
+tags: []
+user_id: ll442

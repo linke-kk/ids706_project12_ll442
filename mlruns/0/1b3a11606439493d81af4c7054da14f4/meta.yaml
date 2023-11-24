@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ll442/ids706/hw12/ids706_project12_ll442/mlruns/0/1b3a11606439493d81af4c7054da14f4/artifacts
+end_time: 1700846863176
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1b3a11606439493d81af4c7054da14f4
+run_name: enchanting-wasp-137
+run_uuid: 1b3a11606439493d81af4c7054da14f4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1700846850703
+status: 3
+tags: []
+user_id: ll442

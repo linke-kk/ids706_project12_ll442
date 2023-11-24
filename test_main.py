@@ -1,4 +1,7 @@
 from model import *
 
-if __name__ == '__main__':
-    MLmodel()
+def test():
+    model_training()
+
+if __name__ == "__main__":
+    test()
