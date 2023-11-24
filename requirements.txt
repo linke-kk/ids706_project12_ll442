@@ -8,6 +8,5 @@ pytest-cov==4.0.0
 ruff==0.0.284
 boto3==1.24.87
 black
-#web
-fastapi==0.85.0
-uvicorn==0.18.3
+# ML
+scikit-learn
