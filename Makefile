@@ -12,7 +12,7 @@ lint:
 	# ruff check --fix .
 
 format:	
-	./env/bin/black *.py 
+	# ./env/bin/black *.py 
 
 test:
 	# ./env/bin/python -m pytest test_main.py 
