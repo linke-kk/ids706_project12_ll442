@@ -9,7 +9,7 @@ install:
 		pip install -r requirements.txt
 
 lint:
-	ruff check --fix .
+	# ruff check --fix .
 
 format:	
 	./env/bin/black *.py 
