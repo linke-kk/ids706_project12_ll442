@@ -1,7 +1,4 @@
-from model import *
+import main
 
-def test():
-    model_training()
-
-if __name__ == "__main__":
-    test()
+def test_add():
+    assert main.add(2, 4) == 6
